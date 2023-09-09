@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2? family=Poppins&family=Tilt+Warp&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section>
+          <div class="box">
+            <nav>
+            <ul class="bar">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li class="has-dropdown">
+            <a href="about.html">About</a>
+            <ul class="dropdown">
+            <li><a href="#">The Company</a></li>
+            <li><a href="#">The Team</a></li>
+            </ul>
+            </li>
+            <li class="has-dropdown">
+            <a href="contacts.html">Contact</a>
+            <ul class="dropdown">
+            <li><a href="#">Email</a></li>
+            <li><a href="#">Phone</a></li>
+            </ul>
+            </li>
+       
+            </ul>
+            </nav>
+            </div>
+        </section>
+
+        <div class="form">
+          <form>
+              <label>Name:<input type="text"></label><br>
+              <label>Email: <input type="text"></label><br>
+              <button type="submit">Subscribe</button>
+          </div>
+          </form>
+        </section>
+
+          <section>
+             <form class="form2">
+            <div class="input-group">
+            <label for="fname">First Name:</label>
+            <input id="fname" name="fname" placeholder="Enter First Name" required="required"/>
+            </div>
+            <div class="input-group">
+            <label for="lname">Last Name:</label>
+            <input
+            id="lname"
+            name="lname"
+            placeholder="Enter Last Name"
+            required="required"
+            />
+            </div>
+            <div class="input-group">
+            <label for="email">Email:</label>
+            <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            />
+           </div>
+            <div class="input-group">
+            <label>Country</label>
+            <select name="country" id="country" required="required">
+            <option value="" selected="selected">Select country</option>
+            <option value="Afghanistan">Afghanistan</option>
+            <option value="Albania">Albania</option>
+            <option value="Algeria">Algeria</option>
+            <option value="America">America</option>
+            <option value="Andorra">Andorra</option>
+            <option value="Angola">Angola</option>
+            <option value="Anguilla">Anguilla</option>
+            <option value="Antarctica">Antarctica</option>
+            </select>
+            </div>
+
+            <div class="input-group">
+            <label for="message">Any message?</label>
+            <textarea id="message" name="message" placeholder="Optional"></textarea>
+            </div>
+            <div class="submit-group">
+            <button type="submit">Submit form</button>
+            </div>
+            </form>
+          </section>  
+
+
+
+
+
+</body>
+</html>
