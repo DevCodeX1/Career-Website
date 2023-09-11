@@ -35,7 +35,7 @@ h3{
 
   font-size: 30px;
   font-family: sans-serif;
-  color: red;
+  color: rgb(25, 235, 95);
   font-family: 'Tilt Warp';
   text-align: center;
 }
@@ -69,7 +69,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background:url("https://pixabay.com/get/g54244e069c40c595db3d93ec1ae7688f3220fa6699ed411fc96b0e026e3f4efc47cac0f86ec916fd09212f282f459753.jpg");
+    background-image: url("environmental-protection-326923.jpg");
     height: 100%;
     width: 100%;
     
@@ -91,7 +91,15 @@ img {
   padding-top: 30%;
 }
 
-
+#container2{
+  position: fixed; left: 1200px;
+  padding: 0 20px;
+  max-width: 400px;
+  height: 500px;
+  border: 5px solid #006eff;
+  background-image: url("avenue-815297_1280.jpg");
+  border-radius: 15px;
+}
   .container{
     max-width: 400px;
     height: 500px;
@@ -99,7 +107,7 @@ img {
     border: 5px solid #006eff;
     border-radius: 15px;
     position: fixed; right: 150px; left: 150px;
-    background-image: url("https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_1280.jpg");
+    background-image: url("avenue-815297_1280.jpg");
   }
   #myCareerButton{
     color: #0e1310;

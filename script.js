@@ -13,3 +13,20 @@ myWhyButton.addEventListener("click", () => {
 
 
 });
+
+
+const myNowText = document.getElementById("myNowText");
+const myNowButton = document.getElementById("myNowButton");
+
+myNowButton.addEventListener("click", () => {
+    myNowText.classList.toggle("animate");
+
+    if (myNowText.classList.contains("animate")) {
+      myNowText.style.display = "block";
+
+    }else{
+     myNowText.style.display = "none";
+    }
+
+
+});
